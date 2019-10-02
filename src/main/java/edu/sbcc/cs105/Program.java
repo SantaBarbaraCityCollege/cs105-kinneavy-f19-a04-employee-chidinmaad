@@ -4,7 +4,12 @@ package edu.sbcc.cs105;
 public class Program {
 
     public static void main(String[] args) {
-        System.out.println("Someday, I'll be a real program!");
+        Employee employee1 = new Employee("Chidinma", 10000);
+        System.out.println(employee1.getName());
+        System.out.println(employee1.getSalary());
+        employee1.raiseSalary(0.01);
+        
+
     }
 
 }
